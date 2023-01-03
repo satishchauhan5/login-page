@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<script>
+
+    function validate()
+    {
+    	var username=document.getElementById('uname');
+    	var password=document.getElementById('pass');
+    	if (username.value==""||password.value=="")
+    {
+    	alert ("no blank value is allowed");
+    	return false;
+    }
+    else{
+   true;
+    }
+}
+
+</script>
+</head>
+<body>
+	<fieldset>
+	<form onsubmit="return validate()" >
+	<center>
+		<h1>welcome to login page</h1>
+	  <div>
+	NAME:
+	<input type="text" id="uname" placeholder="username" required>
+	<br><br>
+	PASSWORD:
+	<input type="password" id="pass" placeholder="password" required>
+	<br><br>
+</div>
+
+	<input type="submit"> 
+</center>
+</form>
+</fieldset>
+</body>
+</html>
