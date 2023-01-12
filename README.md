@@ -1,2 +1,2 @@
-# login-page
-using   html JavaScript code create login page
+# Login-page
+Using   HTML JavaScript Code Create Login page
